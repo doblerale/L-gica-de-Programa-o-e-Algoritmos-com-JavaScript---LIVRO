@@ -6,3 +6,4 @@ const duracao = Math.floor(pesoGr / consumo)
 const sobra = pesoGr % consumo
 console.log(`Duração: ${duracao} dias`)
 console.log(`Sobra: ${sobra}gr`)
+
