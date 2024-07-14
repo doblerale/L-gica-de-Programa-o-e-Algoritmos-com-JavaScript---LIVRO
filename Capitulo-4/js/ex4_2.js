@@ -12,9 +12,9 @@ frm.addEventListener("submit", (e) => {
 
     let peso                // declara a variavel peso
     if (masculino) {          //se masculino, ou *if masculino === true
-        peso = 21 * Math.pow(altura, 2)        //math.pow eleva ao quadrado
+        peso = 22 * Math.pow(altura, 2)        //math.pow eleva ao quadrado
     } else {
-        21 * Math.pow(altura, 2)
+        peso = 21 * Math.pow(altura, 2)
     }
     //apresenta resposta(altera o conteúdo do elemento h3 da página)
     resp.innerText = `${nome}: Seu peso ideal é ${peso.toFixed(3)}`
